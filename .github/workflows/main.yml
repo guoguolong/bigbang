@@ -1,0 +1,15 @@
+name: Big Bang CI/CD
+run-name: ${{ github.actor }} is publishing Big Bang 🚀
+on: 
+  push:
+    branches:
+      - release
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkoout
+        uses: actions/checkout@master
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
