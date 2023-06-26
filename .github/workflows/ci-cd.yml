@@ -1,5 +1,5 @@
 name: Build And Deploy
-run-name: ${{ github.actor }} is building and deploying!
+run-name: ${{ github.actor }} is CI/CD!
 on: 
   push:
     branches:
