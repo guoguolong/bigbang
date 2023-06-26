@@ -1,5 +1,5 @@
-name: Big Bang Demo
-run-name: ${{ github.actor }} is testing Big Bang 🚀
+name: Hello Echo Demo
+run-name: ${{ github.actor }} is playing Echo Demo 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
